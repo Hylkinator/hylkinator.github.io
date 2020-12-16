@@ -1,46 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
+		<!--Meta tags-->
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta content="A portfolio site of Hylke Ype van der Zee" name="description">
+		<meta content="Hylke Ype van der Zee" name="author">
+		<!--FONT-->
+		<link href="//fonts.googleapis.com/css?family=Quicksand"
+			  rel="stylesheet">
 
-    <!--  Basic Page Needs-->
-    <meta charset="utf-8">
-    <title>Hylke</title>
-    <meta content="A portfolio site of Hylke Ype van der Zee" name="description">
-    <meta content="Hylke Ype van der Zee" name="author">
 
-    <!--  Mobile Specific Metas-->
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+		<!--Favicon-->
+		<link href="images/favicon.ico" rel="icon" type="image/png">
 
-    <!--  FONT-->
+		<title>Hylke</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0,0,0,0.8);">
+			<a class="navbar-brand" href="#" style="padding-left:2vw">Hylke</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent" style="display:flex;">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto" style="margin-left:auto; padding-right:2vw">
+					<li class="nav-item">
+						<a href="https://www.linkedin.com/in/hylke-ype-van-der-zee/">
+							<img src="images/linkedin.svg" height="30" width="30">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-    <link href="//fonts.googleapis.com/css?family=Quicksand"
-          rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Quicksand', sans-serif;
-            font-size: 48px;
-        }
-    </style>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10" style="background-color: rgba(0,0,0,0.8)"><h1>hermnolo<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></h1></div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
 
-    <!--  CSS-->
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/skeleton.css" rel="stylesheet">
 
-    <!--  Favicon-->
-    <link href="images/favicon.ico" rel="icon" type="image/png">
-
-</head>
-
-<body>
-<div class="container">
-    <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
-            <h4>Basic Page</h4>
-            <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add
-                some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton
-                    documentation</a>.</p>
-        </div>
-    </div>
-</div>
-</body>
+		<footer class="fixed-bottom page-footer font-small blue pt-4" style="background-color: rgba(0,0,0,0.8)">
+			<div class="container-fluid text-center text-md-left">
+				<div class="row">
+					<div class="col-md-12 mt-md-0 mt-3">
+						<h5 class="text-uppercase">Footer Content</h5>
+						<p>Here you can use rows and columns to organize your footer content.</p>
+					</div>
+					<hr class="clearfix w-100 d-md-none pb-3">
+				</div>
+			</div>
+			<div class="footer-copyright text-center py-3"> Made with
+				<button type="button" class="btn btn-outline-primary" href="https://mdbootstrap.com/"> Bootstrap </button>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	</body>
 </html>
